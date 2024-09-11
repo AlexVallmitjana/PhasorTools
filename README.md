@@ -8,6 +8,7 @@ tags:
   - Hyperspectral imaging
   - Phasor Analysis
   - Phasor Unmixing
+  - Muliharmonic phasor
   - Phasor Clustering
   - MATLAB
 authors:
@@ -46,11 +47,13 @@ bibliography: FLAMEphasor.bib
 
 # Summary
 
+The phasor approach to fluorescence lifetime imaging is a widely used method for image analysis in biophysics and a range of other fields. We have developed a set of tools compacted into a single app to perform the basic manipulation of the tipical file formats used in microscopy and we have implemented the use of higher harmonics of the phasor transform for unmixing of pure components and clustering in the phasor space.
 
 
 # Statement of need
 
-
+The basis of the methodology is to transform the photon distribution across some dimension, typically lifetime or spectral, in every pixel of an image to a 2-dimensional space, the phasor space, that captures the shape of the distribution. This transform allows to easily inspect and identify populations in an image set and perform analysis
+It is a very useful technique to rapidly visualise different fluorescent species within an image and  For over a decade now the main piece of software used by the scientific comunity to perform
 
 # Acknowledgements
 
